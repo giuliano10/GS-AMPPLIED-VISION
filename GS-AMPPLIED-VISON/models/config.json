@@ -1,0 +1,41 @@
+{
+  "roboflow_modelo_id": "gs-vision-0vry7/4",
+  "mapa_classes_roboflow": {
+    "buraco": "buraco",
+    "pothole": "buraco",
+    "rachadura": "rachadura",
+    "crack": "rachadura",
+    "obstaculo": "obstaculo",
+    "obstáculo": "obstaculo",
+    "obstacle": "obstaculo",
+    "lixo": "obstaculo",
+    "saco de lixo": "obstaculo",
+    "garbage": "obstaculo",
+    "trash": "obstaculo",
+    "calcada_quebrada": "calcada_quebrada",
+    "calçada quebrada": "calcada_quebrada",
+    "desnivel": "desnivel",
+    "desnível": "desnivel",
+    "piso_tatil_interrompido": "piso_tatil_interrompido",
+    "passagem_bloqueada": "passagem_bloqueada",
+    "passagem_estreita": "passagem_estreita",
+    "obstaculo_suspenso": "obstaculo_suspenso",
+    "carro": "obstaculo",
+    "moto": "obstaculo",
+    "bicicleta": "obstaculo"
+  },
+  "modelo_yolo": "yolov8n.pt",
+  "yolo_conf_min": 0.3,
+  "yolo_obstaculos": [
+    "bicycle",
+    "motorcycle",
+    "car",
+    "truck",
+    "bus",
+    "bench",
+    "fire hydrant",
+    "parking meter",
+    "stop sign",
+    "traffic light"
+  ]
+}
